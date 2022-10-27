@@ -1,0 +1,234 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+*{margin:0;padding:0;box-sizing:border-box;font-family:"Poppins",sans-serif;}
+.clear{clear:both;}
+body{display:flex;align-items:center;justify-content:center;background:#ffffff;}
+.wrapper{width:85%;height:auto;margin:auto;}
+/* header */
+.wrapper .header{background: #f8f8f8;}
+.logo {
+  margin:25px 0 0 25px;
+  float: left;
+  width: 100px;
+  height: 50px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.logo a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #000000;
+}
+.search {
+  margin:25px 0 0 25px; 
+  float: left;
+  margin-left: 125px;
+  width: 550px;
+  height: 50px;
+  border: 1px solid #eceeef;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.search .search-imgs {
+  float: left;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.search .search-img {
+  width: 100%;
+  height: 100%;
+  background: #eceeef;
+}
+.search .search-img .search-input {
+  width: 94%;
+  height: 49px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background: transparent;
+  padding: 0 10px 0 10px;
+}
+.map {
+  margin:25px 0 0 25px;
+  float: left;
+  width: 215px;
+  height: 50px;
+  margin-left: 60px;
+  margin-bottom: 15px;
+}
+.img a {
+  color: #000;
+  text-decoration: none;
+}
+.hotline {
+  margin:25px 0 0 25px;
+  width: 200px;
+  height: 50px;
+  float: left;
+  margin-left: 80px;
+  margin-bottom: 15px;
+}
+.hotline p {
+  float: left;
+}
+.hotline .zalo {
+  width: 50px;
+  height: 50px;
+  margin-left: 120px;
+  background: #000;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+.hotline .zalo img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+.cart {
+  margin:25px 0 0 25px;
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+  border: 1px solid #f8f8f8;
+  border-radius: 50%;
+  transition: 0.25s ease-in-out;
+}
+.cart:hover{
+  border-color: #cecece;
+  background: #cecece;
+}
+.cart a img {
+  margin: 8px 0 0 8px;
+}
+.login {
+  margin:25px 17px 0 25px;
+  float: right;
+  width: 145px;
+  height: 50px;
+}
+.login a.login-a {
+  text-decoration: none;
+  color: #ffffff;
+}
+#list{
+  width: 100%;
+  height: auto;
+}
+.list-nav{
+  max-width: 100%;
+  margin: 0 auto;
+}
+nav.list-nav{
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+}
+#main-menu{
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-top: 15px;
+}
+#main-menu li.menu-item{
+  position: relative;
+  width: 202px;
+  height: auto;
+  transition: 0.25s ease-in-out;
+}
+#main-menu li.menu-item a{
+  display: block;
+  padding: 18px 20px;
+  text-decoration: none;
+  color: #000000;
+}
+#main-menu>li.menu-item>a{
+  position: relative;
+}
+#main-menu>li.menu-item>a::before{
+  content: "";
+  height: 4px;
+  width: 100%;
+  background: transparent;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  transition: 0.5s ease-in-out;
+}
+#main-menu>li.menu-item:hover>a::before{
+  background: #000000;
+}
+.cach {
+  width: 100%;
+  height: 30px;
+  background: #ffffff;
+}
+/* footer */
+.footer{
+width: 100%;
+}
+ul.footer-class {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+ul.footer-class li {
+flex-basis: 20%;
+list-style: none;
+padding-left: 15px;
+padding-right: 15px;
+box-sizing: border-box;
+margin-bottom: 30px;
+}
+ul.footer-class li .item {
+width: 30px;
+height: 50px;
+float: left;
+margin-top: 10px;
+}
+ul.footer-class1 {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+ul.footer-class1 li {
+flex-basis: 33%;
+list-style: none;
+padding-left: 15px;
+padding-right: 15px;
+box-sizing: border-box;
+margin-bottom: 30px;
+}
+ul.footer-class1 li .imgs {
+float: left;
+width: 20%;
+padding-left: 15px;
+padding-right: 15px;
+box-sizing: border-box;
+margin-bottom: 30px;
+}
+ul.footer-class1 li .imgs img {
+width: 100%;
+height: auto;
+}
+.size {
+font-size: 30px;
+text-transform: uppercase;
+}
+.items p {
+text-transform: uppercase;
+}
+.items a {
+display: block;
+text-decoration: none;
+color: #000000;
+}
+a.ttch {
+text-decoration: none;
+color: #000000;
+padding: 10px 20px;
+border: 1px solid #000000;
+border-radius: 5px;
+}
